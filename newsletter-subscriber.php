@@ -17,7 +17,6 @@ require_once( plugin_dir_path(__FILE__) . '/includes/newsletter-subscriber-scrip
 require_once( plugin_dir_path(__FILE__) . '/includes/newsletter-subscriber-class.php' );
 require_once( plugin_dir_path(__FILE__) . '/includes/newsletter-subscriber-mailer.php' );
 
-
 function ns_register_widget(){
   register_widget( 'Newsletter_Subscriber_Widget' );
 }
